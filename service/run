@@ -1,2 +1,4 @@
 #!/bin/sh
+echo "*** starting dbus-d0-smartmeter ***"
+exec 2>&1
 python /data/dbus-d0-smartmeter/dbus-d0-smartmeter.py
